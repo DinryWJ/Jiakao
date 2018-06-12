@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:id="@+id/aradiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/aitem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分向行驶车道"/>
+
+        <RadioButton
+            android:id="@+id/aitem3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="掉头和左转合用车道"/>
+
+        <RadioButton
+            android:id="@+id/aitem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="禁止左转和掉头车道"/>
+
+        <RadioButton
+            android:id="@+id/aitem4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="直行和左转合用车道"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/asdasd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1213"/>
+</LinearLayout>

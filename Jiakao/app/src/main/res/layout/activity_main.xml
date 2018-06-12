@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="科目一模拟考试app"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+    <EditText
+        android:id="@+id/lusername"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:hint="用户名"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/lpasswd"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/lbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"/>
+    <Button
+        android:id="@+id/rBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"/>
+    <Button
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"/>
+</LinearLayout>
