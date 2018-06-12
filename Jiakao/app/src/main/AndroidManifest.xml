@@ -19,6 +19,7 @@
         <activity android:name=".register"/>
         <activity android:name=".MainPower"/>
         <activity android:name=".Question"/>
+        <activity android:name=".Conclude"/>
         <activity android:name=".Test"/>
 
     </application>

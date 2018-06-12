@@ -74,8 +74,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,Test.class);
+                Bundle bundle = new Bundle();
+                bundle.putInt("result",55);
+                intent.putExtras(bundle);
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (db != null && db.isOpen())
+        {
+            db.close();
+        }
     }
 }

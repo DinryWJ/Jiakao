@@ -48,48 +48,53 @@
             android:id="@+id/qtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="这个标志是何含义？" />
+            android:text="loading" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            />
+            android:layout_gravity="center" />
 
         <RadioGroup
             android:id="@+id/radiogroup"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
+
             <RadioButton
                 android:id="@+id/item1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="分向行驶车道"/>
-
-            <RadioButton
-                android:id="@+id/item3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="掉头和左转合用车道"/>
+                android:text="loading"
+                android:visibility="visible" />
 
             <RadioButton
                 android:id="@+id/item2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="禁止左转和掉头车道"/>
+                android:text="loading"
+                android:visibility="visible" />
+
+            <RadioButton
+                android:id="@+id/item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="loading"
+                android:visibility="visible" />
 
             <RadioButton
                 android:id="@+id/item4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="直行和左转合用车道"/>
+                android:text="loading"
+                android:visibility="visible" />
         </RadioGroup>
+
         <Button
             android:id="@+id/next"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="下一题"/>
+            android:text="下一题" />
     </LinearLayout>
 
     <LinearLayout
@@ -98,6 +103,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/over"
             android:layout_width="100dp"
             android:layout_height="match_parent"
             android:gravity="center"

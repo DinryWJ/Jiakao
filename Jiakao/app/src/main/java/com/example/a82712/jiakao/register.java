@@ -49,7 +49,8 @@ public class register extends Activity {
                         db.execSQL("create table t_score(id integer"
                                 + " primary key autoincrement,"
                                 + " userid integer,"
-                                + " score integer)");
+                                + " score integer," +
+                                "date varchar(50))");
                         // 执行insert语句插入数据
                         insertData(db, name, pwd);
 
